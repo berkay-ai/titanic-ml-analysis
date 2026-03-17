@@ -19,15 +19,15 @@ The workflow was designed to compare the performance of Logistic Regression and 
 ## Key Contributions
 
 - Designed and built the full KNIME workflow pipeline  
-- Performed data preprocessing, including handling missing values and formatting features  
-- Implemented and evaluated multiple classification models  
+- Performed data preprocessing, including handling missing values and feature transformations  
+- Implemented and evaluated classification models  
 - Analyzed model performance using confusion matrices and accuracy metrics  
 
 ---
 
 ## Workflow
 
-![Workflow](images/workflow.png)
+![Workflow](images/workflow.jpeg)
 
 The workflow includes:
 
@@ -41,17 +41,13 @@ The workflow includes:
 
 ## Model Results
 
-### Logistic Regression
+### Confusion Matrix
 
-![Logistic Regression](images/logistic.png)
-
-### Decision Tree
-
-![Decision Tree](images/tree.png)
+![Confusion Matrix](images/confusion.jpeg)
 
 ### Accuracy Metrics
 
-![Accuracy](images/accuracy.png)
+![Accuracy](images/accuracy.jpeg)
 
 ---
 
@@ -60,7 +56,7 @@ The workflow includes:
 KNIME  
 Machine Learning (Classification)  
 Logistic Regression  
-Decision Trees  
+Decision Tree  
 Data Preprocessing  
 
 ---
@@ -80,10 +76,10 @@ Each model is evaluated using confusion matrices and accuracy metrics, allowing 
 
 ## Project Context
 
-This project was originally developed as part of the MSAI program. The workflow design, model implementation, and performance analysis were built and executed as a structured machine learning pipeline.
+This project was developed as part of the MSAI program. The workflow design, model implementation, and performance analysis were built and executed as a structured machine learning pipeline.
 
 ---
 
 ## Key Insight
 
-This project highlights how data preprocessing and feature engineering directly impact model performance, and demonstrates the differences between linear and tree-based models in classification tasks.
+This project highlights how data preprocessing and feature engineering directly impact model performance and demonstrates the differences between linear and tree-based models in classification tasks.
