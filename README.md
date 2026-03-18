@@ -43,7 +43,7 @@ The workflow includes:
 
 ### Confusion Matrix
 
-![Confusion Matrix](images/confusion.jpeg)
+![Confusion Matrix](images/confusion.jpeg) 
 
 ### Accuracy Metrics
 
